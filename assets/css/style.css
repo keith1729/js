@@ -5,3 +5,20 @@ body {
 #heading {
     text-decoration: underline;
 }
+
+#dealer-cards img {
+    max-width: 115px;
+    max-height: 230px;
+}
+
+#player-cards img {
+    max-width: 115px;
+    max-height: 230px;
+}
+
+.hit-stand-button {
+    width: 120px;
+    height: 40px;
+    font-size: 1.25rem;
+    margin: 5px;
+}
