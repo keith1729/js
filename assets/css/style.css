@@ -1,4 +1,7 @@
-#heading {
+body {
     text-align: center;
-    font-size: 2.5rem;
+}
+
+#heading {
+    text-decoration: underline;
 }
