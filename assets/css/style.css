@@ -1,24 +1,76 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
+    background-color: darkgreen;
 }
 
 #heading {
     text-decoration: underline;
+    margin: 30px;
+    padding: 5px;
+}
+
+#heading-div {
+    background-color: #2a2a2a;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    
+}
+
+.cards-div {
+    background-color: #2a2a2a;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.cards-div h2 {
+    padding: 10px;
+}
+
+#score-div {
+    background-color: #2a2a2a;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#score-div p {
+    display: inline-block;
+    margin: 10px;
+    color: white;
 }
 
 #dealer-cards img {
     max-width: 115px;
     max-height: 230px;
+    margin: 10px;
 }
 
 #player-cards img {
     max-width: 115px;
     max-height: 230px;
+    margin: 10px;
 }
 
 .hit-stand-button {
     width: 120px;
     height: 40px;
     font-size: 1.25rem;
-    margin: 5px;
+    margin: 14px;
 }
+h1, h2, h3 {
+    color: white;
+}
+

@@ -10,27 +10,36 @@
 </head>
 <body>
     <!-- Heading -->
-    <h1 id = "heading"><strong>Blackjack</strong></h1>
+    <div id="heading-div">
+    <h1 id="heading"><strong>Blackjack</strong></h1>
+    </div>
+    <br>
     <!-- Game Section -->
     <section id="game-section">
-            <h2>Dealer:</h2>
-            <div id="dealer-cards">
-                <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
-                <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
-            </div>
-            <h2>Player:</h2>
-            <div id="player-cards">
-                <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
-                <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
-            </div>
-            <br>
-            <button class="hit-stand-button">HIT</button>
-            <button class="hit-stand-button">STAND</button>
-            <div id="score-area">
-                <h3>Total Score:</h3>
-                <p id="player-score">Win:</p>
-                <p id="dealer-score">Lose:</p>
-            </div>
+        <div class="cards-div">
+        <h2>Dealer</h2>
+        <div id="dealer-cards">
+            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+        </div>
+        </div>
+        <br>
+        <div class="cards-div">
+        <h2>Player</h2>
+        <div id="player-cards">
+            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+        </div>
+        </div>
+        <br>
+        <div id="score-div">
+        <button class="hit-stand-button"><strong>HIT</strong></button>
+        <button class="hit-stand-button"><strong>STAND</strong></button>
+        <br>
+        <!-- Score Section -->
+        <p id="player-score">Win:</p>
+        <p id="dealer-score">Lose:</p>
+        </div>
     </section>
     
 </body>
