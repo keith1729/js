@@ -37,5 +37,12 @@ function dealCards() {
     console.log(dealerHand);
 }
 
-dealCards();
-console.log(deck1);
+let cardImages = {
+    for(i = 0; i < deck1.length; i++) {
+        let cardValue = deck1[i]
+        let imageUrl = "assets/images/cards/" + cardValue + ".png"
+    }
+    "cardValue": "imageUrl",
+}
+console.log(cardImages);
+
