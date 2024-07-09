@@ -2,9 +2,8 @@ let deck = [];
 let playerHand = [];
 let dealerHand = [];
 let card;
-let hitButton = document.getElementById("hit-button");
-let standButton = document.getElementById("stand-button");
 
+let standButton = document.getElementById("stand-button");
 
 function createDeck() {
   const suits = ["clubs", "diamonds", "hearts", "spades"];
@@ -76,3 +75,24 @@ function cardImages() {
 }
 cardImages();
 
+// Hit/Stand buttons
+
+
+
+function hit() {
+
+  playerHand = [selectRandomCard()];
+  
+  console.log(playerHand);
+
+  for (i = 0; i < playerHand.length; i++) {
+    let cardValue = playerHand[i];
+    let imageUrl = "assets/images/cards/" + cardValue + ".png";
+    document.getElementById(
+      "player-cards"
+    ).innerHTML += `<img src="${imageUrl}" alt="${cardValue}">`;
+  }
+}
+
+let hitButton = document.getElementById("hit-button");
+hitButton.addEventListener("click", hit);
