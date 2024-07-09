@@ -64,12 +64,20 @@ body {
     margin: 10px;
 }
 
-.hit-stand-button {
+#hit-button {
     width: 120px;
     height: 40px;
     font-size: 1.25rem;
     margin: 14px;
 }
+
+#stand-button {
+    width: 120px;
+    height: 40px;
+    font-size: 1.25rem;
+    margin: 14px;
+}
+
 h1, h2, h3 {
     color: white;
 }

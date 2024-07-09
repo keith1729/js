@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    
     <!-- Title -->
     <title>Blackjack</title>
 </head>
@@ -25,8 +25,11 @@
         <div class="cards-div">
         <h2>Dealer</h2>
         <div id="dealer-cards">
-            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
-            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+            <!-- <div class="card">
+                <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+            
+                <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+            </div> -->
         </div>
         </div>
         <br>
@@ -34,21 +37,21 @@
         <div class="cards-div">
         <h2>Player</h2>
         <div id="player-cards">
-            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
-            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+            <!-- <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card">
+            <img id="hidden" src="assets/images/cards/BACK.png" alt="hidden card"> -->
         </div>
         </div>
         <br>
         <div id="score-div">
         <!-- Hit and Stand Buttons -->
-        <button class="hit-stand-button"><strong>HIT</strong></button>
-        <button class="hit-stand-button"><strong>STAND</strong></button>
+        <button id="hit-button"><strong>HIT</strong></button>
+        <button id="stand-button"><strong>STAND</strong></button>
         <br>
         <!-- Score Section -->
         <p id="player-score">Win:</p>
         <p id="dealer-score">Lose:</p>
         </div>
     </section>
-    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
