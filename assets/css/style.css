@@ -78,6 +78,13 @@ body {
     margin: 14px;
 }
 
+#new-game-button {
+    width: 120px;
+    height: 40px;
+    font-size: 1.25rem;
+    margin: 14px;
+}
+
 h1, h2, h3 {
     color: white;
 }
